@@ -1,14 +1,8 @@
 apiVersion: v1
 kind: Namespace
+
 metadata:
-  creationTimestamp: "2026-09-09T07:20:34Z"
-  labels:
-    kubernetes.io/metadata.name: devops
   name: devops
-  resourceVersion: "3770"
-  uid: d1bd7c79-0030-4326-8ce7-c301a5452101
-spec:
-  finalizers:
-  - kubernetes
-status:
-  phase: Active
+  labels:
+    name: devops
+    environment: production
